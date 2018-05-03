@@ -1,0 +1,529 @@
+ /*You can remove this. */
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+body h1, h2, h3, h4, h5, h6{
+    font-size: 19px;
+}
+.yellow-hover:hover{color:#e2ab1a;}
+.yellow{background-color:#ffc400;}
+.btn-main { font-family: 'Montserrat-Regular';color:#fff !important; background: linear-gradient(90deg, #353535 0%, #293340 100%) !important;border-color: #353535; }
+.btn-main:hover { background: #353535; }
+.btn-outline-main { border-color:#fff !important;background: linear-gradient(90deg, #353535 0%, #293340 100%) !important;color: #fff !important ; }
+.btn-outline-main:hover ,.btn-outline-main:active{ color:#fff !important; background: linear-gradient(90deg, #353535 0%, #293340 100%) !important;border-color: #353535; }
+/********** Padding all helpers **********/
+.padding-0 { padding: 0px !important; }
+.padding-10 { padding: 10px !important; }
+.padding-20 { padding: 20px !important; }
+.padding-30 { padding: 30px !important; }
+.padding-40 { padding: 40px !important; }
+.padding-50 { padding: 50px !important; }
+.padding-60 { padding: 60px !important; }
+.padding-70 { padding: 70px !important; }
+.padding-80 { padding: 80px !important; }
+.padding-90 { padding: 90px !important; }
+.padding-100 { padding: 100px !important; }
+
+/********** Padding-top helpers **********/
+.padding-top-0 { padding-top: 0px !important; }
+.padding-top-10 { padding-top: 10px !important; }
+.padding-top-20 { padding-top: 20px !important; }
+.padding-top-30 { padding-top: 30px !important; }
+.padding-top-40 { padding-top: 40px !important; }
+.padding-top-50 { padding-top: 50px !important; }
+.padding-top-60 { padding-top: 60px !important; }
+.padding-top-70 { padding-top: 70px !important; }
+.padding-top-80 { padding-top: 80px !important; }
+.padding-top-90 { padding-top: 90px !important; }
+.padding-top-100 { padding-top: 100px !important; }
+.padding-top-150 { padding-top: 150px !important; }
+
+/********** Padding-right helpers **********/
+.padding-right-0 { padding-right: 0px !important; }
+.padding-right-10 { padding-right: 10px !important; }
+.padding-right-20 { padding-right: 20px !important; }
+.padding-right-30 { padding-right: 30px !important; }
+.padding-right-40 { padding-right: 40px !important; }
+.padding-right-50 { padding-right: 50px !important; }
+.padding-right-60 { padding-right: 60px !important; }
+.padding-right-70 { padding-right: 70px !important; }
+.padding-right-80 { padding-right: 80px !important; }
+.padding-right-90 { padding-right: 90px !important; }
+.padding-right-100 { padding-right: 100px !important; }
+
+/********** Padding all helpers **********/
+.padding-bottom-0 { padding-bottom: 0px !important; }
+.padding-bottom-10 { padding-bottom: 10px !important; }
+.padding-bottom-20 { padding-bottom: 20px !important; }
+.padding-bottom-30 { padding-bottom: 30px !important; }
+.padding-bottom-40 { padding-bottom: 40px !important; }
+.padding-bottom-50 { padding-bottom: 50px !important; }
+.padding-bottom-60 { padding-bottom: 60px !important; }
+.padding-bottom-70 { padding-bottom: 70px !important; }
+.padding-bottom-80 { padding-bottom: 80px !important; }
+.padding-bottom-90 { padding-bottom: 90px !important; }
+.padding-bottom-100 { padding-bottom: 100px !important; }
+
+/********** Padding-left helpers **********/
+.padding-left-0 { padding-left: 0px !important; }
+.padding-left-10 { padding-left: 10px !important; }
+.padding-left-20 { padding-left: 20px !important; }
+.padding-left-30 { padding-left: 30px !important; }
+.padding-left-40 { padding-left: 40px !important; }
+.padding-left-50 { padding-left: 50px !important; }
+.padding-left-60 { padding-left: 60px !important; }
+.padding-left-70 { padding-left: 70px !important; }
+.padding-left-80 { padding-left: 80px !important; }
+.padding-left-90 { padding-left: 90px !important; }
+.padding-left-100 { padding-left: 100px !important; }
+
+/********** Padding-top-bottom helpers **********/
+.padding-tb-10 { padding: 10px 0px !important; }
+.padding-tb-20 { padding: 20px 0px !important; }
+.padding-tb-30 { padding: 30px 0px !important; }
+.padding-tb-40 { padding: 40px 0px !important; }
+.padding-tb-50 { padding: 50px 0px !important; }
+.padding-tb-60 { padding: 60px 0px !important; }
+.padding-tb-70 { padding: 70px 0px !important; }
+.padding-tb-80 { padding: 80px 0px !important; }
+.padding-tb-90 { padding: 90px 0px !important; }
+.padding-tb-100 { padding: 100px 0px !important; }
+
+/********** Padding-left-right helpers **********/
+.padding-lr-10 { padding: 0px 10px !important; }
+.padding-lr-20 { padding: 0px 20px !important; }
+.padding-lr-30 { padding: 0px 30px !important; }
+.padding-lr-40 { padding: 0px 40px !important; }
+.padding-lr-50 { padding: 0px 50px !important; }
+.padding-lr-60 { padding: 0px 60px !important; }
+.padding-lr-70 { padding: 0px 70px !important; }
+.padding-lr-80 { padding: 0px 80px !important; }
+.padding-lr-90 { padding: 0px 90px !important; }
+.padding-lr-100 { padding: 0px 100px !important; }
+
+/********** Margin all helpers **********/
+.margin-0 { margin: 0px !important; }
+.margin-10 { margin: 10px !important; }
+.margin-20 { margin: 20px !important; }
+.margin-30 { margin: 30px !important; }
+.margin-40 { margin: 40px !important; }
+.margin-50 { margin: 50px !important; }
+.margin-60 { margin: 60px !important; }
+.margin-70 { margin: 70px !important; }
+.margin-80 { margin: 80px !important; }
+.margin-90 { margin: 90px !important; }
+.margin-100 { margin: 100px !important; }
+
+/********** Margin-top helpers **********/
+.margin-top-0 { margin-top: 0px !important; }
+.margin-top-10 { margin-top: 10px !important; }
+.margin-top-20 { margin-top: 20px !important; }
+.margin-top-30 { margin-top: 30px !important; }
+.margin-top-40 { margin-top: 40px !important; }
+.margin-top-50 { margin-top: 50px !important; }
+.margin-top-60 { margin-top: 60px !important; }
+.margin-top-70 { margin-top: 70px !important; }
+.margin-top-80 { margin-top: 80px !important; }
+.margin-top-90 { margin-top: 90px !important; }
+.margin-top-100 { margin-top: 100px !important; }
+
+/*minus margin start*/
+.margin-less-top-85{ margin-top: -85px !important; }
+.margin-less-top-70{ margin-top: -70px !important; }
+/*minus margin end*/
+
+/********** Margin-right helpers **********/
+.margin-right-0 { margin-right: 0px !important; }
+.margin-right-10 { margin-right: 10px !important; }
+.margin-right-20 { margin-right: 20px !important; }
+.margin-right-30 { margin-right: 30px !important; }
+.margin-right-40 { margin-right: 40px !important; }
+.margin-right-50 { margin-right: 50px !important; }
+.margin-right-60 { margin-right: 60px !important; }
+.margin-right-70 { margin-right: 70px !important; }
+.margin-right-80 { margin-right: 80px !important; }
+.margin-right-90 { margin-right: 90px !important; }
+.margin-right-100 { margin-right: 100px !important; }
+
+/********** Margin-bottom helpers **********/
+.margin-bottom-0 { margin-bottom: 0px !important; }
+.margin-bottom-10 { margin-bottom: 10px !important; }
+.margin-bottom-20 { margin-bottom: 20px !important; }
+.margin-bottom-30 { margin-bottom: 30px !important; }
+.margin-bottom-40 { margin-bottom: 40px !important; }
+.margin-bottom-50 { margin-bottom: 50px !important; }
+.margin-bottom-60 { margin-bottom: 60px !important; }
+.margin-bottom-70 { margin-bottom: 70px !important; }
+.margin-bottom-80 { margin-bottom: 80px !important; }
+.margin-bottom-90 { margin-bottom: 90px !important; }
+.margin-bottom-100 { margin-bottom: 100px !important; }
+
+/********** Margin-left helpers **********/
+.margin-left-0 { margin-left: 0px !important; }
+.margin-left-10 { margin-left: 10px !important; }
+.margin-left-20 { margin-left: 20px !important; }
+.margin-left-30 { margin-left: 30px !important; }
+.margin-left-40 { margin-left: 40px !important; }
+.margin-left-50 { margin-left: 50px !important; }
+.margin-left-60 { margin-left: 60px !important; }
+.margin-left-70 { margin-left: 70px !important; }
+.margin-left-80 { margin-left: 80px !important; }
+.margin-left-90 { margin-left: 90px !important; }
+.margin-left-100 { margin-left: 100px !important; }
+
+/********** Margin-top-bottom helpers **********/
+.margin-tb-10 { margin: 10px 0px !important; }
+.margin-tb-20 { margin: 20px 0px !important; }
+.margin-tb-30 { margin: 30px 0px !important; }
+.margin-tb-40 { margin: 40px 0px !important; }
+.margin-tb-50 { margin: 50px 0px !important; }
+.margin-tb-60 { margin: 60px 0px !important; }
+.margin-tb-70 { margin: 70px 0px !important; }
+.margin-tb-80 { margin: 80px 0px !important; }
+.margin-tb-90 { margin: 90px 0px !important; }
+.margin-tb-100 { margin: 100px 0px !important; }
+
+/********** Margin-left-right helpers **********/
+.margin-lr-10 { margin: 0px 10px !important; }
+.margin-lr-20 { margin: 0px 20px !important; }
+.margin-lr-30 { margin: 0px 30px !important; }
+.margin-lr-40 { margin: 0px 40px !important; }
+.margin-lr-50 { margin: 0px 50px !important; }
+.margin-lr-60 { margin: 0px 60px !important; }
+.margin-lr-70 { margin: 0px 70px !important; }
+.margin-lr-80 { margin: 0px 80px !important; }
+.margin-lr-90 { margin: 0px 90px !important; }
+.margin-lr-100 { margin: 0px 100px !important; }
+
+/********** Font-weight helpers **********/
+.font-width-1 { font-weight: 100;}
+.font-width-2 { font-weight: 200;}
+.font-width-3 { font-weight: 300;}
+.font-width-4 { font-weight: 400;}
+.font-width-5 { font-weight: 500;}
+.font-width-6 { font-weight: 600;}
+.font-width-7 { font-weight: 700;}
+.font-width-8 { font-weight: 800;}
+.font-width-9 { font-weight: 900;}
+
+
+/********** Font-size helpers **********/
+.font-size-10{ font-size:10px !important;  }
+.font-size-11{ font-size:11px !important;  }
+.font-size-12{ font-size:12px !important;  }
+.font-size-13{ font-size:13px !important;  }
+.font-size-14{ font-size:14px !important;  }
+.font-size-15{ font-size:15px !important;  }
+.font-size-16{ font-size:16px !important;  }
+
+/********** Text-align helpers **********/
+.text-capitalize{text-transform:capitalize;}
+.text-lowercase{text-transform:lowercase;}
+.text-overflow{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.text-uppercase{text-transform: uppercase;}
+.text-center{text-align: center;}
+.text-left{text-align:left;}
+.text-justify{text-align:justify;}
+.text-white{color:#fff;}
+.text-black{color:#000;}
+.text-shadow{text-shadow: 2px -25px 5px #7D7D7D;}
+.text-center{text-align: center;}
+.text-bold{font-weight:900;}
+.text-right{float: right;}
+.text-left{float: left;}
+.text-red{ color:#dc110b; }
+/************ Height all helper class**************/
+.height-10 {height: 10px !important;}
+.height-20 {height: 20px !important;}
+.height-30 {height: 30px !important;}
+.height-40 {height: 40px !important;}
+.height-50 {height: 50px !important;}
+.height-60 {height: 60px !important;}
+.height-70 {height: 70px !important;}
+.height-80 {height: 80px !important;}
+.height-90 {height: 90px !important;}
+.height-100{height: 100px !important;}
+.height-200{height: 200px !important;}
+.height-300{height: 300px !important;}
+.height-400{height: 400px !important;}
+.height-500{height: 500px !important;}
+.height-600{height: 600px !important;}
+.height-700{height: 700px !important;}
+.height-800{height: 800px !important;}
+.height-900{height: 900px !important;}
+.height-1000{height: 1000px !important;}
+.height-100vh{height: 100vh !important;}
+/*  Helper Class End from Here  */
+
+
+
+
+/* Topbar section */
+    #top{
+        height: 40px;
+        line-height: 40px;
+    }
+    @media only screen and (max-width: 786px){
+        #top{
+            display: none;
+        }
+    }
+
+    /* Font Size */
+    .fnt{
+        font-size: 16px; 
+        color : white;
+    }
+/* Topbar section ends here */
+
+
+/* Navigation bar starts here */
+    .navFnt{
+        font-size: 14px;
+    }
+
+    #navbar{
+        height: 60px;
+        line-height: 60px;
+        background-color: white;
+    }
+/* Navigtion bar ends here */
+
+
+
+/* Slider starts here */
+    #slider{
+        margin-top: 40px;
+        height: 600px;
+        background-image: url("../images/spa-1.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .top-50{
+        top: 330px;
+        font-size: 24px;
+    }
+    .owl-carousel{
+        background-attachment: fixed;
+    }
+/* Slider ends here */
+
+
+
+/* Feature start here */
+    .hrTag{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: #ffc400;
+    }
+
+    /* card background color*/
+    .cardEffect{
+        color: black;
+        background-color: #ffdb66;
+    }
+/*Faeature ends here */
+
+
+
+/*Quote start here*/
+    .text{
+        text-align: right;
+        display: block;
+    }
+    .hrQuote{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: #ffc400;
+    }
+    .btnQuote{
+        background-color: #ffc402;
+    }
+    .btnQuote:focus, .btnQuote:active:focus, .btnQuote:active, .btnQuote:hover{
+        transition: 0.2s;
+        outline: none;
+        box-shadow: none;
+    }
+    a{
+        text-decoration: none !important;
+        color: black;
+    }
+    a:hover, a:active, a:focus{
+        transition: .2s;
+        color: white;
+    }
+    #quote{
+        height: 500px;
+        background-image: url('../images/spa1.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+/*Quote Ends here*/
+
+
+
+/*Spa lab start here*/
+    #spaLab .card-header{
+        height: 250px;
+        border-radius: 50%;
+    }
+
+/*Spa lab ends here*/
+
+
+
+/*Service css start here*/
+    .srvcFont{
+        color: white;
+        margin-top: 3rem;
+        padding: 5px;
+    }
+    .srvcMid{
+        background-color: #ffc400;
+    }
+    .srvcMid h5{
+        color: black;
+    }
+    .srvcMid p{
+        color: white;
+    }
+    .srvcTexts{
+    }
+    .srvcMid{
+        color: white;
+    }
+    .srvcMid .txts{
+        color: black;
+    }
+    .srvcTextss{
+        color: white;
+    }
+    .srvcEnd .hr{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: #ffc400;
+    }
+    .srvcHr{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: #ffc400;
+    }
+    .fab{
+        font-size: 20px;
+    }
+    #srvcs .srvcHrTags{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: #ffc400;
+    }
+    #srvcs .srvcHrTag{
+        border: none;
+        height: 2px;
+        width: 40px;
+        background-color: black;
+    }
+/*Service box ends here*/
+
+
+
+
+/*Packaages start here*/
+    #pkg .card{
+        border: none;
+    }
+    #pkg .card .card-header{
+        height: 7em;
+        text-align: center;
+        line-height: 500%;
+    }
+    #pkg .pkgHeader{
+        font-size: 40px;
+    }
+    #pkg .pkgBtn:hover{
+        color: white;
+        background-color: black;
+        transition: 0.7s; 
+    }
+    #pkg .pkgPrice{
+        color: #ffc400;
+    }
+    #pkg .pkgCard:hover h5{
+        transition: 0.5s;
+        color: #ffc400;
+    }
+    #pkg .card-header{
+        background-color: #eff1f2;
+    }
+    #pkg .card-footer{
+        background-color: #e0e1e2;
+    }
+/*Packages end here*/
+
+
+
+/*Team start here*/
+    #team a{
+        text-decoration: none;
+        color: white;
+    }
+    #team h3{
+        color : white;
+    }
+    #team .col-3:hover fb{
+        color: yellow !important;
+    }
+    #team .card{
+        border: none;
+    }
+    #team .card-header{
+        height: 250px;
+    }
+    #team .card-body{
+        color: white;
+        background-color: #343a40;
+    }
+    #team .card-footer{
+        background-color: #343a40;
+    }
+    #team .card-footer a{
+        
+    }
+    #team .team1{
+        background-color: white;
+        background-image: url('../images/team2.png');
+        background-size: cover;
+    }
+    #team .team2{
+        background-color: white;
+        background-image: url('../images/team6.png');
+        background-size: cover;   
+    }
+    #team .team3{
+        background-color: white;
+        background-image: url('../images/team7.png');
+        background-size: cover;   
+    }
+    #team .team4{
+        background-color: white;
+        background-image: url('../images/team3.jpg');
+        background-size: cover;
+    }
+/*Team ends here*/
+
+
+
+/*Map start here*/
+    #map{
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+/*Map ends here*/
